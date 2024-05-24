@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 40;
+    padding: 35;
 }
 
 header {
@@ -9,7 +9,7 @@ header {
     color: black;
 }
 .cabecalho-imagem{
-    width: 20%;
+    width: 15%;
 }
 .cabecalho {
     background-color: #e7aa91;
@@ -23,6 +23,23 @@ header {
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 20px;
+    font-size: 24px;
+}
+.escola-imagem{
+    width: 25%;
+}
+.escola{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.escola-div-conteudo{
+    width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
 }
 
