@@ -4,6 +4,10 @@
 }
 
 .principal {
-    background-image: url('ju.avif');
-    height: 700px;
+    background-image: url('ju.jpg');
+    height: 1000px;
+}
+
+.container {
+    height: 100vh;
 }
