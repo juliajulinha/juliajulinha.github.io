@@ -1,0 +1,26 @@
+* {
+    margin: O;
+    padding: 0;
+    }
+:root {
+    --branco-principal: #fff;
+    --cinza-secundario: #c0c0c0; 
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030c; 
+}
+.principal {
+    background-image: url('julia.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    height: 600px;
+}
+
+.container {
+    height: 100vh;
+}
+.container_botao {
+    background-color: #f182b6;
+    border-radius: 20%;
+    padding: 15px;
+}
