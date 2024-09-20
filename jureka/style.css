@@ -1,45 +1,41 @@
-*{
-    margin: 40;
-    padding: 35;
+* {
+    margin: O;
+    padding: 0;
+    }
+:root {
+    --branco-principal: #fff;
+    --cinza-secundario: #c0c0c0; 
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030c; 
+}
+body {
+    background-color: #000;
+}
+.principal {
+    background-image: url('julia.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    height: 600px;
 }
 
-header {
-    background-color: rgb(211, 113, 198);
-    height: 200px;
-    color: black;
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
-.cabecalho-imagem{
-    width: 15%;
+.container_botao {
+    background-color: #8e99fa;
+    border-radius: 10%;
+    padding: 15px;
+    color: var(--branco-principal);
+    display: block;
 }
-.cabecalho {
-    background-color: #e7aa91;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    
 }
-
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
+h1 {
+    color: aliceblue;
 }
-.escola-imagem{
-    width: 25%;
-}
-.escola{
-    background-image: linear-gradient(#e7aa91,#ffffff);
-    color:rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
-.escola-div-conteudo{
-    width: 35%;
-}
-.escola-titulo{
-    padding: 24px 0;
-}
-
